@@ -12,9 +12,9 @@ export default function Navbar() {
         </Link>
 
         <ul className="flex items-center gap-8 text-sm">
-          <a href="#Home" className="text-emerald-600 hover:text-teal-500">Home</a>
-          <a href="#Event" className="text-emerald-600 hover:text-teal-500">Event</a>
-          <a href="#CreateEvent" className="text-emerald-600 hover:text-teal-500">Create Event</a>
+          <Link href="/" className="text-emerald-600 hover:text-teal-500">Home</Link>
+          <Link href="#Event" className="text-emerald-600 hover:text-teal-500">Event</Link>
+          <Link href="#CreateEvent" className="text-emerald-600 hover:text-teal-500">Create Event</Link>
         </ul>
 
       
